@@ -16,5 +16,5 @@ distributed under the terms of the MIT license as described in LICENSE.
 Original version is available at https://github.com/lxfontes/ezxml
 and http://ezxml.sourceforge.net/.
 
-MorphOS adaptiation uses some code from lvstring library which Grzegorz
+MorphOS adaptiation uses some code from libvstring library which Grzegorz
 Kraszewski made available on BSD license.
