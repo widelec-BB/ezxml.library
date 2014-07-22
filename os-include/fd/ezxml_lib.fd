@@ -1,0 +1,34 @@
+* "ezxml.library"
+##base _EzxmlBase
+##bias 30
+##public
+
+ezxml_parse_str(Arg1, Arg2)(sysv, base)
+ezxml_parse_fd(Arg1)(sysv, base)
+ezxml_parse_file(Arg1)(sysv, base)
+ezxml_parse_fp(Arg1)(sysv, base)
+ezxml_child(Arg1, Arg2)(sysv)
+ezxml_idx(Arg1, Arg2)(sysv)
+ezxml_attr(Arg1, Arg2)(sysv)
+ezxml_get(Arg1, ...)(sysv)
+ezxml_toxml(Arg1)(sysv, base)
+ezxml_pi(Arg1, Arg2)(sysv)
+ezxml_free(Arg1)(sysv, base)
+ezxml_error(Arg1)(sysv)
+ezxml_new(Arg1)(sysv, base)
+ezxml_add_child(Arg1, Arg2, Arg3)(sysv, base)
+ezxml_set_txt(Arg1, Arg2)(sysv, base)
+ezxml_set_attr(Arg1, Arg2, Arg3)(sysv, base)
+ezxml_set_flag(Arg1, Arg2)(sysv)
+ezxml_cut(Arg1)(sysv)
+ezxml_insert(Arg1, Arg2, Arg3)(sysv)
+ezxml_next(Arg1)(sysv)
+ezxml_name(Arg1)(sysv)
+ezxml_txt(Arg1)(sysv)
+ezxml_new_d(Arg1)(sysv, base)
+ezxml_add_child_d(Arg1, Arg2)(sysv, base)
+ezxml_set_txt_d(Arg1, Arg2)(sysv, base)
+ezxml_set_attr_d(Arg1, Arg2, Arg3)(sysv, base)
+ezxml_move(Arg1, Arg2, Arg3)(sysv)
+ezxml_remove(Arg1)(sysv, base)
+##end
